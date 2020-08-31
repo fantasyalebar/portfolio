@@ -71,20 +71,200 @@
     margin-top: 270px;
 }
 
+.homepage-deux {
+    height: 100vh;
+}
+
+.homepage-all-deux-content {
+    display: flex;
+}
+
 .homepage-deux-left {
     height: 100vh;
     width: 50%;
-    background-color: #FFFFFF;   
+    background-color: #FFFFFF;
+}
+
+.homepage-deux-right {
+    height: 100vh;
+    width: 50%;
+    background-color: #4FCFE0;
+}
+
+.homepage-deux-right img {
+    padding-top: 348px;
+    padding-left: 133px;
+}
+
+.homepage-deux-envoir img {
+    padding-top: 0px;
+    padding-left: 732px;
 }
 
 .homepage-deux-title {
     font-size: 36px;
     font-family: multi;
     font-weight: bold;
+    padding-top: 465px;
+    margin-left: 174px;
 }
 
 .homepage-deux-undertitle {
+    padding-top: 20px;
     width: 518px;
+    margin-left: 174px;
+    font-family: Multi;
+    font-weight: normal;
+    color: #0B1036;
+    font-size: 18px;
+}
 
+.homepage-trois {
+    height: 100vh;
+}
 
+.homepage-all-trois-content {
+    display: flex;
+}
+
+.homepage-trois-left {
+    height: 100vh;
+    width: 50%;
+    background-color: #FFFFFF;
+}
+
+.homepage-trois-right {
+    height: 100vh;
+    width: 50%;
+    background-color: #E0E0E0;
+}
+
+.homepage-trois-right img {
+    padding-top: 348px;
+    padding-left: 133px;
+}
+
+.homepage-trois-envoir img {
+    padding-top: 0px;
+    padding-left: 732px;
+}
+
+.homepage-trois-title {
+    font-size: 36px;
+    font-family: multi;
+    font-weight: bold;
+    padding-top: 465px;
+    margin-left: 174px;
+}
+
+.homepage-trois-undertitle {
+    padding-top: 20px;
+    width: 518px;
+    margin-left: 174px;
+    font-family: Multi;
+    font-weight: normal;
+    color: #0B1036;
+    font-size: 18px;
+}
+
+.homepage-quatre {
+    height: 100vh;
+}
+
+.homepage-all-quatre-content {
+    display: flex;
+}
+
+.homepage-quatre-left {
+    height: 100vh;
+    width: 50%;
+    background-color: #FFFFFF;
+}
+
+.homepage-quatre-right {
+    height: 100vh;
+    width: 50%;
+    background-color:#F1A34F;
+}
+
+.homepage-quatre-right img {
+    padding-top: 348px;
+    padding-left: 133px;
+}
+
+.homepage-quatre-envoir img {
+    padding-top: 0px;
+    padding-left: 732px;
+}
+
+.homepage-quatre-title {
+    font-size: 36px;
+    font-family: multi;
+    font-weight: bold;
+    padding-top: 465px;
+    margin-left: 174px;
+}
+
+.homepage-quatre-undertitle {
+    padding-top: 20px;
+    width: 518px;
+    margin-left: 174px;
+    font-family: Multi;
+    font-weight: normal;
+    color: #0B1036;
+    font-size: 18px;
+}
+
+.homepage-cinq {
+    height: 100vh;
+}
+
+.homepage-all-cinq-content {
+    display: flex;
+}
+
+.homepage-cinq-left {
+    height: 100vh;
+    width: 50%;
+    background-color: #FFFFFF;
+}
+
+.homepage-cinq-right {
+    height: 100vh;
+    width: 50%;
+    background-color: #FFFFFF;
+}
+
+.homepage-cinq-title {
+    font-size: 34px;
+    font-family: Multi;
+    font-weight: Bold;
+    padding-top: 180px;
+    padding-left: 174px;
+}
+
+.homepage-cinq-undertitle {
+    width: 440px;
+    margin-top: 20px;
+    padding-left: 174px;
+}
+
+.homepage-cinq-right-title {
+    font-size: 36px;
+    font-family: Multi;
+    font-weight: Bold;
+    padding-top: 146px;
+    padding-left: 450px;
+}
+
+.homepage-cinq-right img {
+    padding-top: 100px;
+    padding-left: 185px;
+}
+
+.homepage-cinq-right-underpic {
+    color: #0B1036;
+    width: 708px;
+    padding-left: 220px;
+    padding-top: 126px;
 }

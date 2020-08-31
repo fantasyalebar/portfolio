@@ -1,19 +1,90 @@
+@font-face {
+    font-family: 'multi';
+    font-style: bold;
+    src: url('../Assets/MultiDisplay-Bold.otf');
+}
+
+@font-face {
+    font-family: 'multi';
+    src: url('../Assets/MultiDisplay-Light.otf');
+}
+
 .homepage-all {
     width: 100%;
     height: 100vh;
+}
+
+.homepage-all-content {
+    display: flex;
     background-color: #0B1036;
 }
 
+.homepage-left {
+    height: 100vh;
+    width: 50%;
+}
+
+.homepage-right {
+    height: 100vh;
+    width: 50%;
+}
+
+.homepage-menu img {
+    margin-left: 70px;
+    margin-top: 72px;
+}
+
 .homepage-title {
+    margin-top: 310px;
+    margin-left: 262px;
     color: #FFFFFF;
     font-size: 46px;
-    font-family: Multi Bold;
+    font-family: Multi;
+    font-weight: bold;
+    width: 525px;
+    margin-bottom: 20px;
+}
+
+.homepage-logo img {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 950px;
 }
 
 .homepage-undertitle {
     color: #FFFFFF;
+    margin-left: 262px;
     font-size: 20px;
     width: 525px;
     height: 91px;
-    font-family: Multi Regular;
+    font-family: Multi;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.homepage-contact {
+    margin-left: 252px;
+}
+
+.homepage-ensavoir {
+    margin-left: 262px;
+    margin-top: 270px;
+}
+
+.homepage-deux-left {
+    height: 100vh;
+    width: 50%;
+    background-color: #FFFFFF;   
+}
+
+.homepage-deux-title {
+    font-size: 36px;
+    font-family: multi;
+    font-weight: bold;
+}
+
+.homepage-deux-undertitle {
+    width: 518px;
+
+
 }

@@ -136,15 +136,7 @@ const Homepage = () => {
               compons pas sur nos positions et recherchons toujours le meilleur
               pour votre projet !
             </div>
-<<<<<<< HEAD
           </div>
-=======
-            <div className="homepage-contact">
-            <div className="homepage-all-cinq-content">
-                
-            </div>
-            </div>
->>>>>>> 175b02d68e7d967c5e2d1a613907a7469af218e6
         </div>
       </div>
     </div>

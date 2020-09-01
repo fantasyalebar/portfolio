@@ -301,17 +301,6 @@ justify-content: space-around;
 .homepage-cinq-right-underpic {
     color: #0B1036;
     width: 708px;
-<<<<<<< HEAD
   text-align:center;
   width:80%;
-=======
-    padding-left: 220px;
-    padding-top: 126px;
-}
-
-.homepage-all-cinq-content {
-    display: flex;
-    height: 60vh;
-    background-color: #0B1036;
->>>>>>> 175b02d68e7d967c5e2d1a613907a7469af218e6
 }

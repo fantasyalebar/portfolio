@@ -268,3 +268,9 @@
     padding-left: 220px;
     padding-top: 126px;
 }
+
+.homepage-all-cinq-content {
+    display: flex;
+    height: 60vh;
+    background-color: #0B1036;
+}

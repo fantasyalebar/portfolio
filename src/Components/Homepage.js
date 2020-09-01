@@ -134,6 +134,11 @@ const Homepage = () => {
                 </div>
             </div>
             </div>
+            <div className="homepage-contact">
+            <div className="homepage-all-cinq-content">
+                
+            </div>
+            </div>
         </div>
     )
 }

@@ -20,10 +20,10 @@ const Homepage = () => {
                     </div>
                     <div className="homepage-title">
                         Créateurs d’expériences
-            </div>
+                    </div>
                     <div className="homepage-undertitle">
                         Nous sommes une équipe regroupant les compétences dont vous avez besoin pour votre projet. Développeurs, Designer et Product Owner.
-                </div>
+                    </div>
                     <div className="homepage-contact">
                         <img src={contacter} alt="contactez-nous" />
                     </div>
@@ -60,7 +60,7 @@ const Homepage = () => {
                 </div>
             </div>
             <div className="homepage-trois">
-            <div className="homepage-all-trois-content">
+                <div className="homepage-all-trois-content">
                     <div className="homepage-trois-left">
                         <div className="homepage-trois-title">
                             logo
@@ -81,7 +81,7 @@ const Homepage = () => {
 
             </div>
             <div className="homepage-quatre">
-            <div className="homepage-all-quatre-content">
+                <div className="homepage-all-quatre-content">
                     <div className="homepage-quatre-left">
                         <div className="homepage-quatre-title">
                             logo
@@ -102,42 +102,42 @@ const Homepage = () => {
 
             </div>
             <div className="homepage-cinq">
-            <div className="homepage-all-quatre-content">
-                <div className="homepage-cinq-left">
-                    <div className="homepage-cinq-title">
-                        L’équipe
+                <div className="homepage-all-quatre-content">
+                    <div className="homepage-cinq-left">
+                        <div className="homepage-cinq-title">
+                            L’équipe
                     </div>
-                    <div className="homepage-cinq-undertitle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eleifend erat ut aliquet. Donec sodales nunc nec quam sodales volutpat. Duis auctor tempus.
+                        <div className="homepage-cinq-undertitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eleifend erat ut aliquet. Donec sodales nunc nec quam sodales volutpat. Duis auctor tempus.
                     </div>
-                    <div className="homepage-cinq-title">
-                        Notre vision
+                        <div className="homepage-cinq-title">
+                            Notre vision
                     </div>
-                    <div className="homepage-cinq-undertitle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eleifend erat ut aliquet. Donec sodales nunc nec quam sodales volutpat. Duis auctor tempus.
+                        <div className="homepage-cinq-undertitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eleifend erat ut aliquet. Donec sodales nunc nec quam sodales volutpat. Duis auctor tempus.
                     </div>
-                    <div className="homepage-cinq-title">
-                        Une passion
+                        <div className="homepage-cinq-title">
+                            Une passion
                     </div>
-                    <div className="homepage-cinq-undertitle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eleifend erat ut aliquet. Donec sodales nunc nec quam sodales volutpat. Duis auctor tempus.
+                        <div className="homepage-cinq-undertitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eleifend erat ut aliquet. Donec sodales nunc nec quam sodales volutpat. Duis auctor tempus.
+                    </div>
+                    </div>
+                    <div className="homepage-cinq-right">
+                        <div className="homepage-cinq-right-title">
+                            We don’t think out the box, we are out the box
+                    </div>
+                        <img src={language} alt="all language" />
+                        <div className="homepage-cinq-right-underpic">
+                            Nous adaptons les technologies et les outils utilisés en fonction de vos besoins. Toujours curieux des dernières nouveautés nous ne compons pas sur nos positions et recherchons toujours le meilleur pour votre projet !
+                    </div>
                     </div>
                 </div>
-                <div className="homepage-cinq-right">
-                    <div className="homepage-cinq-right-title">
-                        We don’t think out the box, we are out the box
-                    </div>
-                    <img src={language} alt="all language" />
-                    <div className="homepage-cinq-right-underpic">
-                    Nous adaptons les technologies et les outils utilisés en fonction de vos besoins. Toujours curieux des dernières nouveautés nous ne compons pas sur nos positions et recherchons toujours le meilleur pour votre projet !
-                    </div>
-                </div>
-            </div>
             </div>
             <div className="homepage-contact">
-            <div className="homepage-all-cinq-content">
-                
-            </div>
+                <div className="homepage-all-cinq-content">
+
+                </div>
             </div>
         </div>
     )

@@ -189,6 +189,21 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <div className="homepage-six" id="homepage-six">
+        <div className="homepage-all-six-content">
+            <div className="contact-form">
+                <div className="inputs">
+                <input type="text" className="input1"></input>
+                <input type="text" className="input2"></input>
+                </div>
+                <textarea className="textarea"></textarea>
+                <button className='button-envoyer'>ENVOYER</button>
+            </div>
+            <div className="homepage-six-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eleifend erat ut aliquet. Donec sodales nunc nec quam sodales volutpat. Duis auctor tempus consequat. Sed dictum dapibus justo ut suscipit. Proin at mi turpis. Integer interdum dapibus finibus. Nunc elit mi, consectetur quis aliquet eget, mattis id enim. Mauris tincidunt pulvinar leo, in auctor purus ornare nec. Phasellus tristique nulla quis eros tempor pellentesque. Proin eu urna nulla. Proin fermentum diam et bibendum euismod. Nulla quam felis, blandit at eros ac, blandit imperdiet lectus. Maecenas porta metus enim, in iaculis metus vehicula feugiat. Suspendisse laoreet velit placerat arcu mattis vehicula. Duis orci nibh, faucibus sed ultrices non, dictum vel elit. Aenean consequat mauris ac porttitor fermentum. In sit amet elit dignissim, condimentum erat at, faucibus lacus.
+            </div>
+        </div>
+      </div>
     </div>
     </>
   );

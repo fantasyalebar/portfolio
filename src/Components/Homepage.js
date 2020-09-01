@@ -1,4 +1,6 @@
 import React from "react";
+
+import { HashLink as Link } from 'react-router-hash-link';
 import "./Homepage.css";
 import logo from "../Assets/logo.svg";
 import menu from "../Assets/menu.svg";
@@ -11,11 +13,51 @@ import doc3 from "../Assets/picconnexion.png";
 import language from "../Assets/language.png";
 
 const Homepage = () => {
+
+    const openMenu = () => {
+        let menu = document.getElementById("menu");
+        if(menu.style.display==="block") {
+            menu.style.display="none"
+        }
+        else {
+            menu.style.display="block"
+        }
+    }
+
   return (
-    <div className="homepage-all">
+     <> 
+     <div className="menu" id="menu">
+        <div className="homepage-menu" onClick={openMenu}>
+            <img src={menu} alt="menu portfolio"/>
+        </div>
+        <div className="menu-content">
+            <div>
+                <p className="menu-title">
+                    Menu
+                </p>
+                <Link to="#homepage-all">Accueil</Link>
+                <Link to="#homepage-deux">Projets</Link>
+                <Link to="#homepage-cinq">Services</Link>
+                <Link to="#homepage-six">Nous contacter</Link>
+            </div>
+            <div>
+                <p className="menu-title">
+                   Projets
+                </p>
+                <Link to="#homepage-deux">Projet 1</Link>
+                <Link to="#homepage-trois">Projet 2</Link>
+                <Link to="#homepage-quatre">Projet 3</Link>
+              
+            </div>
+            <div>
+
+            </div>
+        </div>
+     </div>
+    <div className="homepage-all" id="homepage-all">
       <div className="homepage-all-content">
         <div className="homepage-left">
-          <div className="homepage-menu">
+          <div className="homepage-menu" onClick={openMenu}>
             <img src={menu} alt="menu portfolio" />
           </div>
           <div className="homepage-content">
@@ -37,10 +79,18 @@ const Homepage = () => {
           <div className="homepage-logo">
             <img src={logo} alt="logo portfolio" />
           </div>
+          <div classNAme="homepage-right-content">
+              <div className="carre1">
+
+              </div>
+              <div  className="carre2">
+
+              </div>
+          </div>
         </div>
       </div>
 
-      <div className="homepage-deux">
+      <div className="homepage-deux" id="homepage-deux">
         <div className="homepage-all-deux-content">
           <div className="homepage-deux-left">
             <div className="homepage-deux-title">logo</div>
@@ -59,7 +109,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="homepage-trois">
+      <div className="homepage-trois" id="homepage-trois">
         <div className="homepage-all-trois-content">
           <div className="homepage-trois-left">
             <div className="homepage-trois-title">logo</div>
@@ -78,7 +128,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="homepage-quatre">
+      <div className="homepage-quatre" id="homepage-quatre">
         <div className="homepage-all-quatre-content">
           <div className="homepage-quatre-left">
             <div className="homepage-quatre-title">logo</div>
@@ -97,7 +147,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="homepage-cinq">
+      <div className="homepage-cinq" id="homepage-cinq">
         <div className="homepage-all-quatre-content">
           <div className="homepage-cinq-left">
             <div>
@@ -140,6 +190,7 @@ const Homepage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 export default Homepage;

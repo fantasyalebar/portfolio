@@ -594,3 +594,19 @@ height: 48vh;
   }
  
 }
+
+
+
+@media screen and (max-width: 825px) {
+  .homepage-deux, .homepage-trois, .homepage-quatre, .homepage-cinq{
+    height:auto;
+  }
+
+  .homepage-all-deux-content, .homepage-all-trois-content, .homepage-all-quatre-content, .homepage-all-cinq-content{
+    flex-direction:column;
+  }
+
+  .homepage-deux-left, .homepage-deux-right, .homepage-trois-left, .homepage-trois-right, .homepage-quatre-left, .homepage-quatre-right, .homepage-cinq-left, .homepage-cinq-right{
+    width:100%;
+  }
+}

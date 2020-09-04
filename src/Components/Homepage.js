@@ -17,11 +17,17 @@ const Homepage = () => {
     const openMenu = () => {
         let menu = document.getElementById("menu");
         if(menu.style.display==="block") {
-            menu.style.display="none"
+            menu.classList.remove("scale-in-tl")
+            menu.classList.add("scale-out-tl")
+            setTimeout(()=>{
+                menu.style.display="none"
+            },500)
+           
         }
         else {
-            menu.style.display="block"
+            menu.classList.remove("scale-out-tl")
             menu.classList.add("scale-in-tl")
+            menu.style.display="block"
         }
     }
 

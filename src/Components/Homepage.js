@@ -77,7 +77,14 @@ const Homepage = () => {
               <img src={contacter} alt="contactez-nous" />
             </div>
             <div className="homepage-ensavoir">
-              <img src={savoir} alt="en savoir plus" />
+              <img src={savoir} alt="en savoir plus" 
+              onMouseEnter={(e)=> {
+                e.target.classList.add('shake-vertical')
+              }}
+              onMouseLeave={(e)=> {
+                e.target.classList.remove('shake-vertical')
+              }}
+              />
             </div>
           </div>
         </div>

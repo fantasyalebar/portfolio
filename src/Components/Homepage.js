@@ -21,6 +21,7 @@ const Homepage = () => {
         }
         else {
             menu.style.display="block"
+            menu.classList.add("scale-in-tl")
         }
     }
 

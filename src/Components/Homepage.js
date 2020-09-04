@@ -8,7 +8,7 @@ import menu from "../Assets/menu.svg";
 import contacter from "../Assets/contact.svg";
 import savoir from "../Assets/ensavoirplus.svg";
 import voir from "../Assets/envoirplus.svg";
-import doc1 from "../Assets/documentsclose.png";
+import doc1 from "../Assets/documentsclose2x.png";
 import doc2 from "../Assets/piclandingpage.png";
 import doc3 from "../Assets/picconnexion.png";
 import language from "../Assets/language.png";
@@ -118,7 +118,15 @@ const Homepage = () => {
             </div>
           </div>
           <div className="homepage-deux-right">
-            <img src={doc1} alt="menu portfolio" />
+            <img src={doc1} alt="menu portfolio" 
+            
+            onMouseEnter={(e)=> {
+              e.target.classList.add('flip-scale-up-ver')
+            }}
+            onMouseLeave={(e)=> {
+              e.target.classList.remove('flip-scale-up-ver')
+            }}
+            />
 
             <div className="homepage-deux-envoir">
               <img src={voir} alt="en voir plus" />

@@ -1,6 +1,7 @@
 import React from "react";
 
-import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./Homepage.css";
 import logo from "../Assets/logo.svg";
 import menu from "../Assets/menu.svg";
@@ -42,18 +43,18 @@ const Homepage = () => {
                 <p className="menu-title">
                     Menu
                 </p>
-                <Link to="#homepage-all">Accueil</Link>
-                <Link to="#homepage-deux">Projets</Link>
-                <Link to="#homepage-cinq">Services</Link>
-                <Link to="#homepage-six">Nous contacter</Link>
+                <Link to="homepage-all" spy={true} smooth={true} duration={500}>Accueil</Link>
+                <Link to="homepage-deux"  spy={true} smooth={true} duration={500}>Projets</Link>
+                <Link to="homepage-cinq"  spy={true} smooth={true} duration={500}>Services</Link>
+                <Link to="homepage-six" spy={true} smooth={true} duration={500}>Nous contacter</Link>
             </div>
             <div>
                 <p className="menu-title">
                    Projets
                 </p>
-                <Link to="#homepage-deux">Projet 1</Link>
-                <Link to="#homepage-trois">Projet 2</Link>
-                <Link to="#homepage-quatre">Projet 3</Link>
+                <Link to="homepage-deux"  spy={true} smooth={true} duration={500}>Projet 1</Link>
+                <Link to="homepage-trois" spy={true} smooth={true} duration={500}>Projet 2</Link>
+                <Link to="homepage-quatre" spy={true} smooth={true} duration={500}>Projet 3</Link>
               
             </div>
             <div>
@@ -76,6 +77,7 @@ const Homepage = () => {
             <div className="homepage-contact">
               <img src={contacter} alt="contactez-nous" />
             </div>
+            <Link to="homepage-deux" spy={true} smooth={true} duration={500}>
             <div className="homepage-ensavoir">
               <img src={savoir} alt="en savoir plus" 
               onMouseEnter={(e)=> {
@@ -86,6 +88,7 @@ const Homepage = () => {
               }}
               />
             </div>
+            </Link>
           </div>
         </div>
 
